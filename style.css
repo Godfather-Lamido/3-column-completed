@@ -27,7 +27,8 @@ body {
 .container .first {
     background-color: rgb(245, 139, 19);
     padding: 30px 30px;
-    border-radius: 4.5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;    
     flex: 1;
 }
 
@@ -60,7 +61,9 @@ body {
 .container .third {
     background-color: hsl(179 100% 13%);
     padding: 30px;
-    border-radius: 4.5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 .third img {
